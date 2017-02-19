@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+
 /**
  * Board class: a board is an entity that contains pieces. Methods include board constructors, isValid to check
  * if the spot is on the board, getSpot to get the location, setSpot to set a piece to the location, remove to
@@ -8,6 +8,9 @@ import java.util.ArrayList;
  * @author Mark Guan
  * 4/20/2014
  */
+
+import java.util.ArrayList;
+
 public class Board {
 	
 	private Piece[][] board;
