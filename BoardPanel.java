@@ -1,3 +1,6 @@
+// Mark Guan
+// The graphical interface for the puzzle board.
+
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
