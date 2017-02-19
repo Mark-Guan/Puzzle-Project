@@ -1,3 +1,9 @@
+/*
+ * Display class that  creates the JFrame with a BoardPanel that can hold 9 Pieces and has a solve and clear button
+ * 
+ * written by Jeffrey Shao and Mark Guan
+ */
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -6,12 +12,6 @@ import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import javax.swing.*;
-
-/*
- * Display class that  creates the JFrame with a BoardPanel that can hold 9 Pieces and has a solve and clear button
- * 
- * written by Jeffrey Shao and Mark Guan
- */
 
 public class Display {
 	private static Puzzle puzzle;
