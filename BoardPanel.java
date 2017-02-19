@@ -1,23 +1,3 @@
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
-import java.awt.event.ActionEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
-import java.awt.image.BufferedImage;
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
-
-import javax.imageio.ImageIO;
-import javax.swing.AbstractAction;
-import javax.swing.ImageIcon;
-import javax.swing.JComponent;
-import javax.swing.JPanel;
-import javax.swing.KeyStroke;
 
 /*
  * Class BoardPanel which creates a board that is divided into 9 boxes and and also contains the 9 puzzle pieces
@@ -25,6 +5,14 @@ import javax.swing.KeyStroke;
  * 
  * written by Jeffrey Shao and Mark Guan
  */
+
+import java.awt.*;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import javax.imageio.ImageIO;
+import javax.swing.*;
+
 public class BoardPanel extends JPanel
 {
 	static PieceV2 piece1Component;
@@ -139,8 +127,7 @@ public class BoardPanel extends JPanel
 		
 		
 		@Override
-		public void mouseClicked(MouseEvent e){
-		}
+		public void mouseClicked(MouseEvent e){}
 
 		@Override
 		public void mouseEntered(MouseEvent e){}
