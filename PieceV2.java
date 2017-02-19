@@ -125,7 +125,7 @@ public class PieceV2 extends JLabel{
 		g2.translate( + 59,  + 59); 
 		g2.rotate( Math.toRadians(piece.getOrientation() * 90 ) );
 		this.getIcon().paintIcon(this, g2, -59, -59);
-    }
+    	}
 	
 
 }
