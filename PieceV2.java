@@ -1,14 +1,12 @@
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import javax.swing.*;
-
 /*
  * PieceV2 is a Piece that has an Icon that is attached to it. It also has boolean variable that determines
  * if it is in a Board or not, a boolean that determines whether or not it can be rotated and an orientation variable.
  * 
  * written by Jeffrey Shao and Mark Guan
  */
+
+import java.awt.*;
+import javax.swing.*;
 
 public class PieceV2 extends JLabel{
 	private Piece piece;
