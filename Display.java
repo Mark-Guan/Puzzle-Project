@@ -1,5 +1,5 @@
 // Mark Guan
-// Creates the graphical interface for the puzzle game.
+// Creates the graphical interface for the puzzle game. Also, runs the game.
 
 import java.awt.*;
 import java.io.File;
