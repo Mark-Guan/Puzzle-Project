@@ -1,4 +1,5 @@
-
+// Mark Guan
+// a class containing the 9 pieces of the puzzle
 public class Pieces {
 	public static final Piece PIECE_1 = new Piece(3,1,-4,-3);
 	public static final Piece PIECE_2 = new Piece(2,4,-2,-1);
