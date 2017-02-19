@@ -1,3 +1,6 @@
+// Mark Guan
+// A puzzle piece with with four sides. Each side is a possible suit and each suit can be inward or outward.
+
 import java.util.ArrayList;
 
 public class Piece {
