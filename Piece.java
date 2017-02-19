@@ -1,15 +1,15 @@
-import java.util.ArrayList;
-
 /**
  * Piece class: constructs a puzzle piece with four sides, each side having a different shape.
  * The shapes include a heart, a spade, a club, or a diamond, each either indented or raised.
  * These shapes are assigned to the puzzle through a given direction.
  * The puzzle piece can also rotate counterclockwise or clockwise.
  * 
- * @author Austin Wolf and Wendy Yu
- * Period 6
+ * @author Mark Guan
  * 4/20/2014
  */
+
+import java.util.ArrayList;
+
 public class Piece {
 
 	//0 = north; 1 = east; 2 = south; 3 = west
