@@ -1,15 +1,17 @@
-import java.awt.Point;
-import java.util.ArrayList;
+
 /**
  * Puzzle class: a puzzle is an entity that has a board and pieces. Methods include puzzle constructors,
  * solve method to find a solution to the puzzle, isSolved to check if the puzzle is solved, canFit to check
  * if a piece can fit into a spot, removePiece to remove a piece from the board, clear to clear the board
  * of all pieces, getSpot to get the location on the board, and addPiece to add the piece onto the board.
  * 
- * @author Austin Wolf and Wendy Yu
- * Period 6
+ * @author Mark Guan
  * 4/20/2014
  */
+
+import java.awt.Point;
+import java.util.ArrayList;
+
 public class Puzzle {
 
 	/**
