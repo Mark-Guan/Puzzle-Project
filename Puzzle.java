@@ -1,3 +1,6 @@
+// Mark Guan
+// Class Puzzle keeps track of a board and a pieceBank and allows for interactions between the two
+
 import java.awt.Point;
 import java.util.ArrayList;
 
@@ -71,33 +74,6 @@ public class Puzzle {
 		    return null;
 	}
 	
-//	private Board solve(int row, int col, ArrayList<Piece> remainder){
-//		 if (isSolved()){
-//		        return board;
-//		 }
-//		    for (Piece piece : remainder) {
-//		        for(int orientation = 0; orientation < 4; orientation++) {		        	
-//		        	clearFrom(row, col);
-//		        	piece.rotateClockwise();		        	
-//		            if (addPiece(piece, row, col)) {		            	
-//		            	ArrayList<Piece> remainder2 = (ArrayList<Piece>) remainder.clone();		           
-//		            	remainder2.remove(piece);		                
-//		                Point next = nextLoc(row, col);		                
-//		                Board solution = solve(next.x, next.y, remainder2);		                
-//		                if(solution != null){
-//		                	return solution;
-//		                }
-//		            }
-//		        }
-//		    }
-//		    if(!isSolved()){
-//		    	board.clearBoard();
-//		    	return board;
-//		    }
-//		    return null;
-//	}
-	
-
 	public boolean isSolved(){
 	    for (int i = 0; i < board.getNumRows(); i++) {
 	        for (int j= 0; j < board.getNumCols(); j++) {
