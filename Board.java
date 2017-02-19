@@ -5,8 +5,7 @@ import java.util.ArrayList;
  * remove a piece from the location, clearBoard to clear the board entirely of pieces, isOccupied to check if 
  * the spot is occupied by a piece already, and getNeighbors to get the neighbors that are adjacent to the given piece.
  * 
- * @author Austin Wolf and Wendy Yu
- * Period 6
+ * @author Mark Guan
  * 4/20/2014
  */
 public class Board {
